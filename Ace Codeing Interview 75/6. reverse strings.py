@@ -34,3 +34,7 @@ Constraints:
 
 Follow-up: If the string data type is mutable in your language, can you solve it in-place with O(1) extra space?
 """
+
+def reverseWords(s: str) -> str:
+        words = s.split()
+        return ' '.join(words[::-1])
